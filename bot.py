@@ -11,17 +11,22 @@ Forma Ánima — квиз-бот "Архетип вашего бренда"
 """
 
 import asyncio
+import io
 import logging
 import os
 
 from aiogram import Bot, Dispatcher, F
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
 from aiogram.filters import CommandStart
 from aiogram.types import (
+    BufferedInputFile,
     CallbackQuery,
     InlineKeyboardButton,
     InlineKeyboardMarkup,
     Message,
 )
+from PIL import Image, ImageDraw
 
 logging.basicConfig(level=logging.INFO)
 
@@ -449,14 +454,34 @@ def compute_result(answers: list[str]) -> str:
     return best_code
 
 
-def format_result(code: str) -> str:
+def generate_palette_image(colors: list[tuple[str, str]]) -> bytes:
+    """Рисует ряд цветных квадратиков-образцов палитры и возвращает PNG-байты."""
+    swatch_size = 160
+    width = swatch_size * len(colors)
+    image = Image.new("RGB", (width, swatch_size), "#FFFFFF")
+    draw = ImageDraw.Draw(image)
+    for i, (hexv, _label) in enumerate(colors):
+        x0 = i * swatch_size
+        draw.rectangle([x0, 0, x0 + swatch_size, swatch_size], fill=hexv)
+    buffer = io.BytesIO()
+    image.save(buffer, format="PNG")
+    return buffer.getvalue()
+
+
+def format_caption(code: str) -> str:
     a = ARCHETYPES[code]
-    colors_lines = "\n".join(f"🎨 {hexv} — {label}" for hexv, label in a["colors"])
-    fonts_lines = "\n".join(f"• {f}" for f in a["fonts"])
+    colors_lines = "\n".join(f"{hexv} — {label}" for hexv, label in a["colors"])
     return (
         f"<b>Архетип вашего бренда: {a['name']}</b>\n\n"
         f"{a['desc']}\n\n"
-        f"<b>Палитра</b>\n{colors_lines}\n\n"
+        f"<b>Палитра</b>\n{colors_lines}"
+    )
+
+
+def format_result_body(code: str) -> str:
+    a = ARCHETYPES[code]
+    fonts_lines = "\n".join(f"• {f}" for f in a["fonts"])
+    return (
         f"<b>Шрифты</b>\n{fonts_lines}\n\n"
         f"<b>Промт для генерации логотипа нейросетью</b>\n"
         f"<code>{a['prompt']}</code>\n\n"
@@ -473,7 +498,7 @@ def format_result(code: str) -> str:
     )
 
 
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token=BOT_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher()
 
 
@@ -521,8 +546,16 @@ async def handle_answer(callback: CallbackQuery) -> None:
         await ask_question(callback, next_index)
     else:
         result_code = compute_result(state["answers"])
+        archetype = ARCHETYPES[result_code]
+
+        palette_bytes = generate_palette_image(archetype["colors"])
+        palette_photo = BufferedInputFile(palette_bytes, filename="palette.png")
+        await callback.message.answer_photo(
+            palette_photo, caption=format_caption(result_code)
+        )
+
         await callback.message.answer(
-            format_result(result_code), reply_markup=contact_keyboard()
+            format_result_body(result_code), reply_markup=contact_keyboard()
         )
         await callback.message.answer(
             "Хотите пройти ещё раз?", reply_markup=restart_keyboard()
