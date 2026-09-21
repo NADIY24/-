@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/32459493/README.md)
+[README.md](https://github.com/user-attachments/files/32459758/README.md)
 # Квиз-бот «Архетип вашего бренда»
 
 Полный перенос веб-квиза в Telegram: те же 12 вопросов, те же 12 архетипов
