@@ -181,7 +181,7 @@ ARCHETYPES = {
             "Luxury heraldic emblem logo, dark navy and antique gold color "
             "palette, classic serif typography, symmetrical crest-like "
             "composition, timeless regal elegance, minimal ornamental "
-            "details, flat vector, on cream background"
+            "details, flat vector, on cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "S": {
@@ -202,7 +202,7 @@ ARCHETYPES = {
             "Sensual luxury logo mark, black and rose gold color palette, "
             "elegant italic serif typography, fluid curved lines suggesting "
             "intimacy, minimal seductive elegance, flat vector, on black "
-            "background"
+            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "B": {
@@ -221,7 +221,7 @@ ARCHETYPES = {
         "prompt": (
             "Bold rebellious logo, black background with one striking red "
             "accent, brutalist display typography, asymmetric confident "
-            "composition, edgy yet refined, flat vector, on black background"
+            "composition, edgy yet refined, flat vector, on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "F": {
@@ -241,7 +241,7 @@ ARCHETYPES = {
         "prompt": (
             "Minimalist quiet wisdom logo, beige gray and white color "
             "palette, thin refined sans-serif typography, generous negative "
-            "space, understated elegance, flat vector, on light background"
+            "space, understated elegance, flat vector, on light background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "G": {
@@ -261,7 +261,7 @@ ARCHETYPES = {
             "Powerful winner's emblem logo, black gold and red color "
             "palette, bold strong typography, dynamic upward composition, "
             "status and achievement symbolism, flat vector, on black "
-            "background"
+            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "Fr": {
@@ -282,7 +282,7 @@ ARCHETYPES = {
             "Warm friendly brand logo, peach cream and soft green color "
             "palette, rounded approachable sans-serif typography, simple "
             "welcoming mark, no luxury cues, flat vector, on cream "
-            "background"
+            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "Cr": {
@@ -303,7 +303,7 @@ ARCHETYPES = {
             "Creative expressive brand logo, vibrant teal orange and pink "
             "color palette, organic hand-drawn typography mixed with clean "
             "sans-serif, playful artistic composition, flat vector, on "
-            "cream background"
+            "cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "Pl": {
@@ -323,7 +323,7 @@ ARCHETYPES = {
         "prompt": (
             "Playful fun brand logo, bright yellow pink and turquoise color "
             "palette, bold rounded display typography, energetic joyful "
-            "composition, flat vector, on white background"
+            "composition, flat vector, on white background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "Ex": {
@@ -343,7 +343,7 @@ ARCHETYPES = {
             "Adventurous explorer brand logo, terracotta khaki and sand "
             "color palette, rugged condensed typography, compass or "
             "journey-inspired mark, authentic outdoor feel, flat vector, on "
-            "textured cream background"
+            "textured cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "Mg": {
@@ -363,7 +363,7 @@ ARCHETYPES = {
             "Mystical transformative brand logo, deep purple black and gold "
             "color palette, elegant alchemical symbolism, subtle glow or "
             "radiant mark, sense of magic and metamorphosis, flat vector, "
-            "on black background"
+            "on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "Cg": {
@@ -383,7 +383,7 @@ ARCHETYPES = {
             "Warm caregiving brand logo, soft terracotta sage green and "
             "cream color palette, gentle rounded serif typography, "
             "nurturing protective symbolism, flat vector, on cream "
-            "background"
+            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
     "In": {
@@ -403,7 +403,7 @@ ARCHETYPES = {
             "Pure innocent brand logo, white sky blue and soft yellow color "
             "palette, clean simple sans-serif typography, minimal "
             "optimistic mark, light and airy feel, flat vector, on white "
-            "background"
+            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
         ),
     },
 }
@@ -485,9 +485,12 @@ def format_result_body(code: str) -> str:
         f"<b>Шрифты</b>\n{fonts_lines}\n\n"
         f"<b>Промт для генерации логотипа нейросетью</b>\n"
         f"<code>{a['prompt']}</code>\n\n"
-        f"Допишите в начало или конец промта название бренда и известные вам "
-        f"характеристики будущего логотипа (символ, форма, отрасль, надпись) — "
-        f"если они уже есть. Это сделает результат точнее.\n\n"
+        f"Промт специально просит нейросеть не рисовать текст/буквы — иначе "
+        f"часто получаются кривые надписи вместо чистого знака. Если хотите "
+        f"увидеть название бренда на макете, лучше добавить его отдельно в "
+        f"редакторе уже после генерации значка. Можно дописать в промт "
+        f"отрасль или характер символа (форма, отрасль), если они уже есть — "
+        f"это сделает результат точнее.\n\n"
         f"— — —\n"
         f"<b>Хотите не догадываться, а точно попасть в образ?</b>\n"
         f"Разбор проекта: 1–2 часа созвона, разбираем архетип «{a['name']}» и "
