@@ -166,11 +166,7 @@ QUESTIONS = [
 ARCHETYPES = {
     "A": {
         "name": "Правитель",
-        "desc": (
-            "Ваш бренд — это наследие и порядок. Он не гонится за трендами, "
-            "потому что сам их переживёт. Дорогой, но никогда не кричащий об "
-            "этом — статус читается в деталях, а не в громкости."
-        ),
+        "desc": "Ваш бренд — это наследие и порядок. Он не гонится за трендами, потому что сам их переживёт. Дорогой, но никогда не кричащий об этом — статус читается в деталях, а не в громкости. Такой бренд выбирают клиенты, которым важна безупречная репутация и уверенность в том, что решение выдержит проверку временем. Он держит дистанцию, но именно она и создаёт ощущение элитарности.",
         "colors": [
             ("#0B1F3A", "тёмно-синий"),
             ("#C9A227", "старое золото"),
@@ -179,19 +175,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Playfair Display", "Cormorant / EB Garamond"],
         "prompt": (
-            "Luxury heraldic emblem logo, dark navy and antique gold color "
-            "palette, classic serif typography, symmetrical crest-like "
-            "composition, timeless regal elegance, minimal ornamental "
-            "details, flat vector, on cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Luxury heraldic emblem logo, dark navy and antique gold color palette, classic serif typography, symmetrical crest-like composition, timeless regal elegance, minimal ornamental details, flat vector, on cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "S": {
         "name": "Любовник",
-        "desc": (
-            "Бренд, который не продаёт — он притягивает. Работает через "
-            "чувственность, тайну и обещание близости. Клиент выбирает его "
-            "не разумом, а первым впечатлением."
-        ),
+        "desc": "Бренд, который не продаёт — он притягивает. Работает через чувственность, тайну и обещание близости. Клиент выбирает его не разумом, а первым впечатлением. Здесь важна не функциональность, а то, что чувствуешь, соприкасаясь с вещью. Такой бренд создаёт вокруг себя атмосферу желания — и клиенты возвращаются за этим ощущением, а не только за продуктом.",
         "colors": [
             ("#0D0D0D", "чёрный"),
             ("#B76E79", "розовое золото"),
@@ -200,19 +189,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Bodoni Moda", "Italiana"],
         "prompt": (
-            "Sensual luxury logo mark, black and rose gold color palette, "
-            "elegant italic serif typography, fluid curved lines suggesting "
-            "intimacy, minimal seductive elegance, flat vector, on black "
-            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Sensual luxury logo mark, black and rose gold color palette, elegant italic serif typography, fluid curved lines suggesting intimacy, minimal seductive elegance, flat vector, on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "B": {
         "name": "Бунтарь",
-        "desc": (
-            "Ломает правила красиво. Дерзость, поданная с безупречным "
-            "вкусом — не хаос ради хаоса, а точный удар по привычным "
-            "ожиданиям ниши."
-        ),
+        "desc": "Ломает правила красиво. Дерзость, поданная с безупречным вкусом — не хаос ради хаоса, а точный удар по привычным ожиданиям ниши. Такой бренд говорит вслух то, о чём остальные предпочитают молчать, и именно этим привлекает тех, кто устал от предсказуемости. Он не боится потерять часть аудитории — ему важнее остаться честным перед той, что осталась.",
         "colors": [
             ("#0D0D0D", "чёрный"),
             ("#FF3B30", "алый акцент"),
@@ -220,18 +202,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Anton (Google Fonts)", "Inter"],
         "prompt": (
-            "Bold rebellious logo, black background with one striking red "
-            "accent, brutalist display typography, asymmetric confident "
-            "composition, edgy yet refined, flat vector, on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Bold rebellious logo, black background with one striking red accent, brutalist display typography, asymmetric confident composition, edgy yet refined, flat vector, on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "F": {
         "name": "Мудрец",
-        "desc": (
-            "Сила в сдержанности и знании. Ничего лишнего — только суть, "
-            "пространство и воздух. Такой бренд не убеждает, он просто есть, "
-            "и этого достаточно."
-        ),
+        "desc": "Сила в сдержанности и знании. Ничего лишнего — только суть, пространство и воздух. Такой бренд не убеждает, он просто есть, и этого достаточно. Клиент, который выбирает его, ищет ясность, а не эмоциональное давление. Экспертность здесь видна не в громких заявлениях, а в спокойной уверенности каждого решения.",
         "colors": [
             ("#E8E4DC", "бежевый"),
             ("#A9A9A9", "серый"),
@@ -240,18 +216,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Jost (Google Fonts)", "Inter"],
         "prompt": (
-            "Minimalist quiet wisdom logo, beige gray and white color "
-            "palette, thin refined sans-serif typography, generous negative "
-            "space, understated elegance, flat vector, on light background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Minimalist quiet wisdom logo, beige gray and white color palette, thin refined sans-serif typography, generous negative space, understated elegance, flat vector, on light background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "G": {
         "name": "Герой",
-        "desc": (
-            "Амбиция и статус через достижения. Бренд для тех, кто хочет "
-            "быть первым, а не одним из. Символика силы, движения вперёд и "
-            "заслуженной победы."
-        ),
+        "desc": "Амбиция и статус через достижения. Бренд для тех, кто хочет быть первым, а не одним из. Символика силы, движения вперёд и заслуженной победы. Клиент ассоциирует себя с результатом, который транслирует бренд, и рассчитывает, что вместе с продуктом получит частичку этого успеха. Здесь ценится не участие, а доказанный, измеримый эффект.",
         "colors": [
             ("#0D0D0D", "чёрный"),
             ("#C9A227", "золото"),
@@ -259,19 +229,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Archivo Black (Google Fonts)", "Inter Bold"],
         "prompt": (
-            "Powerful winner's emblem logo, black gold and red color "
-            "palette, bold strong typography, dynamic upward composition, "
-            "status and achievement symbolism, flat vector, on black "
-            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Powerful winner's emblem logo, black gold and red color palette, bold strong typography, dynamic upward composition, status and achievement symbolism, flat vector, on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "Fr": {
         "name": "Свой парень",
-        "desc": (
-            "Бренд как хороший друг — простой, тёплый, без пафоса и "
-            "дистанции. Ему верят не потому что он статусный, а потому что "
-            "с ним по-настоящему."
-        ),
+        "desc": "Бренд как хороший друг — простой, тёплый, без пафоса и дистанции. Ему верят не потому что он статусный, а потому что с ним по-настоящему. Такой бренд говорит на языке клиента, без сложных терминов и заигрывания со статусом. Доверие здесь строится годами честного отношения, а не разовой красивой кампанией.",
         "colors": [
             ("#E8A87C", "персиковый"),
             ("#FFF4E0", "кремовый"),
@@ -280,19 +243,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Nunito / Quicksand", "Inter"],
         "prompt": (
-            "Warm friendly brand logo, peach cream and soft green color "
-            "palette, rounded approachable sans-serif typography, simple "
-            "welcoming mark, no luxury cues, flat vector, on cream "
-            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Warm friendly brand logo, peach cream and soft green color palette, rounded approachable sans-serif typography, simple welcoming mark, no luxury cues, flat vector, on cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "Cr": {
         "name": "Творец",
-        "desc": (
-            "Бренд живёт фантазией и самовыражением. Он не боится "
-            "нестандартных сочетаний — потому что настоящая ценность "
-            "рождается там, где правила отходят в сторону."
-        ),
+        "desc": "Бренд живёт фантазией и самовыражением. Он не боится нестандартных сочетаний — потому что настоящая ценность рождается там, где правила отходят в сторону. Клиент выбирает его за уникальность, которую невозможно скопировать шаблоном. Каждая новая работа здесь — это маленький эксперимент, и именно непредсказуемость становится главным конкурентным преимуществом.",
         "colors": [
             ("#2FA8A0", "бирюзовый"),
             ("#E8703A", "оранжевый"),
@@ -301,19 +257,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Caveat (рукописный)", "Inter"],
         "prompt": (
-            "Creative expressive brand logo, vibrant teal orange and pink "
-            "color palette, organic hand-drawn typography mixed with clean "
-            "sans-serif, playful artistic composition, flat vector, on "
-            "cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Creative expressive brand logo, vibrant teal orange and pink color palette, organic hand-drawn typography mixed with clean sans-serif, playful artistic composition, flat vector, on cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "Pl": {
         "name": "Шут",
-        "desc": (
-            "Бренд не воспринимает себя слишком серьёзно. Он заряжает "
-            "энергией, шутит и приглашает повеселиться вместе — и именно в "
-            "этом его сила."
-        ),
+        "desc": "Бренд не воспринимает себя слишком серьёзно. Он заряжает энергией, шутит и приглашает повеселиться вместе — и именно в этом его сила. Такой бренд снимает напряжение вокруг покупки и превращает её в приятный момент, а не обязательство. Клиенты делятся им с друзьями просто потому, что он поднимает настроение.",
         "colors": [
             ("#F4C542", "жёлтый"),
             ("#FF6F91", "розовый"),
@@ -322,17 +271,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Baloo 2 / Fredoka", "Inter"],
         "prompt": (
-            "Playful fun brand logo, bright yellow pink and turquoise color "
-            "palette, bold rounded display typography, energetic joyful "
-            "composition, flat vector, on white background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Playful fun brand logo, bright yellow pink and turquoise color palette, bold rounded display typography, energetic joyful composition, flat vector, on white background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "Ex": {
         "name": "Искатель",
-        "desc": (
-            "Свобода, подлинность, жажда нового опыта. Бренд для тех, кто "
-            "не сидит на месте и ищет настоящее, а не витрину."
-        ),
+        "desc": "Свобода, подлинность, жажда нового опыта. Бренд для тех, кто не сидит на месте и ищет настоящее, а не витрину. Здесь ценится не идеальная картинка, а живой опыт и честность происхождения продукта. Клиент выбирает такой бренд, потому что устал от глянцевых шаблонов и хочет открытий, а не повторения чужого пути.",
         "colors": [
             ("#C1663B", "терракотовый"),
             ("#8A9A5B", "хаки"),
@@ -341,18 +285,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Big Shoulders / Barlow Condensed", "Inter"],
         "prompt": (
-            "Adventurous explorer brand logo, terracotta khaki and sand "
-            "color palette, rugged condensed typography, compass or "
-            "journey-inspired mark, authentic outdoor feel, flat vector, on "
-            "textured cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Adventurous explorer brand logo, terracotta khaki and sand color palette, rugged condensed typography, compass or journey-inspired mark, authentic outdoor feel, flat vector, on textured cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "Mg": {
         "name": "Маг",
-        "desc": (
-            "Трансформация и ощущение чуда. Бренд обещает не просто вещь, а "
-            "перемену состояния того, кто ею владеет — «до» и «после»."
-        ),
+        "desc": "Трансформация и ощущение чуда. Бренд обещает не просто вещь, а перемену состояния того, кто ею владеет — «до» и «после». Здесь продаётся не продукт, а результат, который меняет то, как человек видит себя. Клиент приходит за ощущением, что после покупки в его жизни что-то по-настоящему изменится.",
         "colors": [
             ("#2D1B4E", "тёмно-фиолетовый"),
             ("#0D0D0D", "чёрный"),
@@ -361,18 +299,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Cinzel Decorative", "Inter"],
         "prompt": (
-            "Mystical transformative brand logo, deep purple black and gold "
-            "color palette, elegant alchemical symbolism, subtle glow or "
-            "radiant mark, sense of magic and metamorphosis, flat vector, "
-            "on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Mystical transformative brand logo, deep purple black and gold color palette, elegant alchemical symbolism, subtle glow or radiant mark, sense of magic and metamorphosis, flat vector, on black background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "Cg": {
         "name": "Опекун",
-        "desc": (
-            "Забота, надёжная защита, внимание к комфорту другого. Бренд, "
-            "который ставит благополучие клиента выше всего остального."
-        ),
+        "desc": "Забота, надёжная защита, внимание к комфорту другого. Бренд, который ставит благополучие клиента выше всего остального. Такой бренд заметен не громкими обещаниями, а вниманием к деталям, которые не рекламируют, но которые чувствуются. Клиент доверяет ему, потому что ни разу не был разочарован.",
         "colors": [
             ("#D8A48F", "пудровый терракот"),
             ("#F5EFE6", "кремовый"),
@@ -381,18 +313,12 @@ ARCHETYPES = {
         ],
         "fonts": ["Lora", "Inter"],
         "prompt": (
-            "Warm caregiving brand logo, soft terracotta sage green and "
-            "cream color palette, gentle rounded serif typography, "
-            "nurturing protective symbolism, flat vector, on cream "
-            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Warm caregiving brand logo, soft terracotta sage green and cream color palette, gentle rounded serif typography, nurturing protective symbolism, flat vector, on cream background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
     "In": {
         "name": "Простодушный",
-        "desc": (
-            "Чистота, простота, оптимизм и доверие с первого взгляда. "
-            "Бренд без второго дна — то, что видишь, то и получаешь."
-        ),
+        "desc": "Чистота, простота, оптимизм и доверие с первого взгляда. Бренд без второго дна — то, что видишь, то и получаешь. Здесь нет манипуляций и завышенных обещаний, только честная, понятная коммуникация. Клиент выбирает такой бренд, потому что устал разгадывать маркетинговые уловки и хочет простой уверенности в своём решении.",
         "colors": [
             ("#FFFFFF", "белый"),
             ("#BFE3F2", "светло-голубой"),
@@ -401,10 +327,7 @@ ARCHETYPES = {
         ],
         "fonts": ["Poppins Light / Quicksand", "Inter"],
         "prompt": (
-            "Pure innocent brand logo, white sky blue and soft yellow color "
-            "palette, clean simple sans-serif typography, minimal "
-            "optimistic mark, light and airy feel, flat vector, on white "
-            "background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style"
+            "Pure innocent brand logo, white sky blue and soft yellow color palette, clean simple sans-serif typography, minimal optimistic mark, light and airy feel, flat vector, on white background, professional brand identity mark, single iconic symbol, centered composition, generous negative space, clean logo design presentation, no text, no letters, no words, no typography, no writing, no signature, no watermark, not an illustration or scene, not clipart, high-end branding style. Brand name: \"[Название]\". Industry: \"[Отрасль]\". Target audience: \"[Целевой клиент — возраст, пол]\"."
         ),
     },
 }
@@ -486,12 +409,9 @@ def format_result_body(code: str) -> str:
         f"<b>Шрифты</b>\n{fonts_lines}\n\n"
         f"<b>Промт для генерации логотипа нейросетью</b>\n"
         f"<code>{a['prompt']}</code>\n\n"
-        f"Промт специально просит нейросеть не рисовать текст/буквы — иначе "
-        f"часто получаются кривые надписи вместо чистого знака. Если хотите "
-        f"увидеть название бренда на макете, лучше добавить его отдельно в "
-        f"редакторе уже после генерации значка. Можно дописать в промт "
-        f"отрасль или характер символа (форма, отрасль), если они уже есть — "
-        f"это сделает результат точнее.\n\n"
+        f"Допишите название бренда, отрасль и целевого клиента (возраст, "
+        f"пол) и известные вам характеристики — если они есть. Результат "
+        f"будет точнее.\n\n"
         f"— — —\n"
         f"<b>Хотите не догадываться, а точно попасть в образ?</b>\n"
         f"Разбор проекта: 1–2 часа созвона, разбираем архетип «{a['name']}» и "
